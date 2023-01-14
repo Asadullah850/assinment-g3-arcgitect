@@ -79,7 +79,7 @@ main{
 .features{
     display: flex;
     justify-content: space-between;
-    margin: 80px 0;
+    margin-top: 60px;
 }
 .features-text{
     padding-right: 30px;
@@ -112,12 +112,90 @@ main{
 .exp-butt{
     font-size: 18px;
     position: relative;
-    bottom: 185px;
+    bottom: 130px;
     left: 46%;
 }
 
-
 /* <!--  section features end --> */
+/* <!-- facts section start--> */
+.facts{
+    width: 100%;
+}
+.facts-titel{
+    width: 400px;
+}
+.facts h1{
+    margin: 10px 0;
+}
+.revew{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    margin: 0 10px;
+}
+.small-part{
+    width: 140px;
+    border: #424242 solid 1px;
+    border-radius: 10px;
+    padding: 10px;
+    text-align: center;
+    margin: 10px;
+    color: #424242;
+}
+.small-part:hover img{
+    transform: rotate(-360deg);
+    transition: 2s;
+}
+.small-part p{
+    font-size: 1rem;
+}
+/* 
+<!-- sponspors section strat--> */
+.sponsore-text{
+    text-align: center;
+    width: 300px;
+    margin: auto;
+}
+.sponspors{
+    margin-top: 50px;
+}
+.spon-img{
+    display: grid;
+    grid-template-columns: repeat(5,1fr);
+    margin-top: 30px;
+}
+.img{
+    width: 100px;
+}
+.img img{
+    width: 100%;
+    background-blend-mode:color-dodge;
+    background-color: #3d3c3c57;
+}
+
+.body-part-three{
+    background-color: #ffcc92;
+    background-image: url("/images/watch.png");
+    background-blend-mode: multiply;
+    background-repeat: no-repeat;
+    background-size:  cover;
+    background-position: center;
+    padding: 10%;
+    margin: 100px 0;
+}
+.body-part-three h1{
+    margin: 10px 0;
+    width: 40%;
+}
+
+
+/* <!-- footer start -->  */
+.footer{
+    background-color: #FFF4E7;
+    text-align: center;
+    height: 50px;
+    padding: 30px;
+}
+
 
 
 .butt-primary{
