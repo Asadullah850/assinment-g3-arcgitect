@@ -1,3 +1,5 @@
+
+/* mobile screen control */
 @media screen and (max-width:576px) {
     nav{
         flex-direction: column;
@@ -39,4 +41,10 @@
         margin-top: 40px;
     }
 
+}
+/* large tablet screen control*/
+@media screen and (min-width:577px) and (max-width:992px){
+    .body-part-three{
+        display: none;
+    }
 }
