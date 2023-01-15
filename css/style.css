@@ -177,7 +177,7 @@ main{
 
 .body-part-three{
     background-color: #ffcc92;
-    background-image: url(/watch.png);
+    background-image: url(watch.png);
     background-blend-mode: multiply;
     background-repeat: no-repeat;
     background-size:  cover;
