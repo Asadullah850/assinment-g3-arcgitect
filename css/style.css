@@ -57,16 +57,18 @@ main{
 .main-top-section{
     display: flex;
     justify-content:space-between;
+    margin: 0 5%;
 }
 .top-img-gallery{
-    width: 500px;
+    width: 50%;
     margin-right: 10px;
     display: grid;
-    grid-template-columns: repeat(2 ,1fr);
-    gap: 10px;
+    grid-gap: 10px;
+    grid-template-columns: repeat(auto-fit, minmax(min-content, 110px));
+    justify-content: center;
 }
 .top-section-text{
-    width: 500px;
+    width: 40%;
     padding: 60px 20px;
 }
 .top-img-gallery img{
@@ -129,16 +131,17 @@ main{
 }
 .revew{
     display: grid;
-    grid-template-columns: repeat(4, 1fr);
-    margin: 0 10px;
+  grid-gap: 10px;
+  grid-template-columns: repeat(auto-fit, minmax(min-content, 170px));
+    margin-top: 20px;
+    justify-content: end;
 }
 .small-part{
-    width: 140px;
     border: #424242 solid 1px;
     border-radius: 10px;
     padding: 10px;
     text-align: center;
-    margin: 10px;
+    /* margin: 10px; */
     color: #424242;
 }
 .small-part:hover img{
@@ -160,11 +163,11 @@ main{
 }
 .spon-img{
     display: grid;
-    grid-template-columns: repeat(5,1fr);
+    grid-gap: 10px;
+    grid-template-columns: repeat(auto-fit, minmax(min-content, 110px));
     margin-top: 30px;
-}
-.img{
-    width: 100px;
+    justify-content: center;
+
 }
 .img img{
     width: 100%;
@@ -174,7 +177,7 @@ main{
 
 .body-part-three{
     background-color: #ffcc92;
-    background-image: url("/images/watch.png");
+    background-image: url(watch.png);
     background-blend-mode: multiply;
     background-repeat: no-repeat;
     background-size:  cover;
