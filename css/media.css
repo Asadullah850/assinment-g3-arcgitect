@@ -5,6 +5,7 @@
     nav ul{
         flex-direction: column;
     }
+    /* nav end */
     .brand-text h1{
         font-size: 2.5rem;
     }
